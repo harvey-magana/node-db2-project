@@ -21,7 +21,7 @@ server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
 //16. in your knexfile.js file, buid out your development object *
 //17. from your terminal, start your migration process by executing 'npx knex migrate:make cars-schema' *
 //17a. populate your knexfile.js file with the migration part of of the object *
-//18. build out your up and down stubs 
+//18. build out your up and down stubs *
 //19. next, run 'npx knex migrate:latest' 
 //20. next run 'npx knex cars-schema' 
 //21. next, to start the seed directory and 
