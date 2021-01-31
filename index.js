@@ -3,7 +3,7 @@ const server = require('./api/server.js');
 const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
 
-// 1. complete the index.js file 
+// 1. complete the index.js file *
 // 2. create the api and data directories
 // 3. in the package.json file, add express, nodemon, helmet, knex, sqlite3
 // 4. in the package add the scripts so the project can be bootted up
