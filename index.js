@@ -4,12 +4,12 @@ const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
 
 // 1. complete the index.js file *
-// 2. create the api and data directories
-// 3. in the package.json file, add express, nodemon, helmet, knex, sqlite3
-// 4. in the package add the scripts so the project can be bootted up
-// 5. in api, create a cars directory
-// 6. in the cars directory, create a cars-router.js file
-// 7. in api, create a server.js file
+// 2. create the api and data directories *
+// 3. in the package.json file, add express, nodemon, helmet, knex, sqlite3 *
+// 4. in the package add the scripts so the project can be bootted up * 
+// 5. in api, create a cars directory *
+// 6. in the cars directory, create a cars-router.js file *
+// 7. in api, create a server.js file *
 // 8. in data file, create a db-config.js file 
 // 9. in db-config.js file, connect knex, knexfile.js, add the configuredKnex variable and export the file
 //10. in cars-router.js file, connect db-config.js file, create Router variable and build out the get, post, put and delete methods
