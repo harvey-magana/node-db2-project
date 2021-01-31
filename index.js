@@ -18,8 +18,8 @@ server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
 //13. create database schema with your sqlite editor *
 //14. from your sqlite editor, connect and create your database to your data directory in your project *
 //15. execute 'knex init' from your terminal to create the knexfile.js file in your root directory *
-//16. in your knexfile.js file, buid out your development object 
-//17. from your terminal, start your migration process by executing 'npx knex migrate:make cars-schema' 
+//16. in your knexfile.js file, buid out your development object *
+//17. from your terminal, start your migration process by executing 'npx knex migrate:make cars-schema' *
 //17a. populate your knexfile.js file with the migration part of of the object
 //18. build out your up and down stubs 
 //19. next, run 'npx knex migrate:latest' 
