@@ -46,5 +46,6 @@ router.post('/', (req, res) => {
         })
 })
 
+// as a stretch, try to add the put and delete methods after you get all of the mvp stuff completed.
 
 module.exports = router;
