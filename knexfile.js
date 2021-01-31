@@ -8,5 +8,8 @@ module.exports = {
         filename: './data/car-dealer.db3'
     },
     useNullAsDefault: true,
+    migrations: {
+      directory: './data/migrations'
+    }
   }
 };
